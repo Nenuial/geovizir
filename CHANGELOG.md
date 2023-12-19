@@ -2,6 +2,13 @@
 
 
 
+## v1.1.1 (2023-12-19)
+
+### Fix
+
+* fix: Try fixing CD errors ([`544a64d`](https://github.com/Nenuial/geovizir/commit/544a64debfb820cfb5fd4159e8058b6d021a5c8b))
+
+
 ## v1.1.0 (2023-12-19)
 
 
