@@ -2,6 +2,13 @@
 
 
 
+## v1.1.4 (2023-12-19)
+
+### Fix
+
+* fix: My bad… ([`5369c79`](https://github.com/Nenuial/geovizir/commit/5369c79b4ee43b09481384ef73619d8c78ec6351))
+
+
 ## v1.1.3 (2023-12-19)
 
 ### Fix
