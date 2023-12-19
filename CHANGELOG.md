@@ -2,6 +2,13 @@
 
 
 
+## v1.1.2 (2023-12-19)
+
+### Fix
+
+* fix: GH Actions CD new attempt ([`255cc68`](https://github.com/Nenuial/geovizir/commit/255cc68872561701efdf4a56cabf8827119db611))
+
+
 ## v1.1.1 (2023-12-19)
 
 ### Fix
