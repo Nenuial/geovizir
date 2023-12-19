@@ -2,6 +2,13 @@
 
 
 
+## v1.1.3 (2023-12-19)
+
+### Fix
+
+* fix: Next attempt ([`5a1bc91`](https://github.com/Nenuial/geovizir/commit/5a1bc91facb6329c0a546f63d454cabb3740359f))
+
+
 ## v1.1.2 (2023-12-19)
 
 ### Fix
