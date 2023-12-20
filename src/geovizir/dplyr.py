@@ -38,10 +38,3 @@ def glimpse(df: DataFrame, max_width: int = 76):
             output_combined = output_combined[0:(max_width-4)] + " ..."
 
         print(output_combined)
-
-
-df = pd.DataFrame({
-            'A': [1, 2, 3, 4, 5],
-            'B': ['a', 'b', 'c', 'd', 'e'],
-            'C': [1.1, 2.2, 3.3, 4.4, 5.5]
-        })
