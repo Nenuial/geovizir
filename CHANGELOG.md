@@ -2,6 +2,27 @@
 
 
 
+## v1.2.0 (2023-12-20)
+
+### Feature
+
+* feat: Add a new module with a dplyr-like glimpse function ([`5c2ef40`](https://github.com/Nenuial/geovizir/commit/5c2ef40c684ee5d9a0c093479a4f995aef95503e))
+
+### Fix
+
+* fix: remove unnecessary code ([`f7be4e5`](https://github.com/Nenuial/geovizir/commit/f7be4e56ef4404f7b0e680daf9e376703963e66d))
+
+* fix: Add pandas to dev dependencies ([`d6e6b27`](https://github.com/Nenuial/geovizir/commit/d6e6b27405f30a639cde1c54322c34252f5757d3))
+
+### Test
+
+* test: Test the dplyr module ([`bcbac75`](https://github.com/Nenuial/geovizir/commit/bcbac750078a4235a335f0f0dfa9236d1f3d48cd))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`4c7716c`](https://github.com/Nenuial/geovizir/commit/4c7716c4abbbe90e4e591c115c784d9d3469dd1a))
+
+
 ## v1.1.5 (2023-12-19)
 
 ### Fix
