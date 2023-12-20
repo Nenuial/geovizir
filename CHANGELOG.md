@@ -2,6 +2,17 @@
 
 
 
+## v1.1.5 (2023-12-19)
+
+### Fix
+
+* fix: Try something ugly ([`22ad617`](https://github.com/Nenuial/geovizir/commit/22ad617628259da24e84ec83aaad6e224d928f18))
+
+* fix: Another attempt ([`25e2636`](https://github.com/Nenuial/geovizir/commit/25e2636ccce9d1f63a0d3ecaf021455614168a56))
+
+* fix: Try actually using the CD ([`187b935`](https://github.com/Nenuial/geovizir/commit/187b935b64baf9b7ef856fd09c905f0ce9b4f08a))
+
+
 ## v1.1.4 (2023-12-19)
 
 ### Fix
