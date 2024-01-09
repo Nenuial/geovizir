@@ -26,7 +26,7 @@ pandas = "^2.1.4"
 [tool.semantic_release]
 branch = "main"                             # branch to make releases of
 changelog_file = "CHANGELOG.md"             # changelog file
-build_command = "pip install poetry; poetry install; poetry build" # ugly fix for missing poetry
+build_command = "poetry build"              # build command
 dist_path = "dist/"                         # where to put dists
 upload_to_release = true                    # auto-create GitHub release
 upload_to_pypi = false                      # don't auto-upload to PyPI
