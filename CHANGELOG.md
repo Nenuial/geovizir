@@ -2,6 +2,13 @@
 
 
 
+## v1.2.1 (2024-01-09)
+
+### Fix
+
+* fix: Try specific psr release (v8.3.0) ([`80aaf69`](https://github.com/Nenuial/geovizir/commit/80aaf695d3d59cc70930ca0f786da775e43103ae))
+
+
 ## v1.2.0 (2023-12-20)
 
 ### Feature
