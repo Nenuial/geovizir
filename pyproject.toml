@@ -11,6 +11,8 @@ python = "^3.9"
 cartopy = "^0.22.0"
 geopandas = "^0.14.1"
 pandas = "^2.1.4"
+wbdata = "^0.3.0"
+datetime = "^5.4"
 
 [tool.poetry.dev-dependencies]
 
