@@ -2,6 +2,17 @@
 
 
 
+## v1.3.0 (2024-01-13)
+
+### Feature
+
+* feat: new data module ([`7f686f2`](https://github.com/Nenuial/geovizir/commit/7f686f2ed4669b64aa251bc503a7633af18e3ea4))
+
+### Test
+
+* test: unit tests for data module ([`6e4a3fa`](https://github.com/Nenuial/geovizir/commit/6e4a3fab9244b22d7053f9897379170d5ef32596))
+
+
 ## v1.2.1 (2024-01-09)
 
 ### Fix
