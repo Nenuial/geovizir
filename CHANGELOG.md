@@ -2,6 +2,13 @@
 
 
 
+## v1.3.1 (2024-01-14)
+
+### Fix
+
+* fix: fix codeconv upload ([`130febf`](https://github.com/Nenuial/geovizir/commit/130febfe6a1c3d85717cf8bbe392ffffa9cfb590))
+
+
 ## v1.3.0 (2024-01-13)
 
 ### Feature
