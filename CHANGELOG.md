@@ -2,6 +2,19 @@
 
 
 
+## v1.3.2 (2024-01-15)
+
+### Documentation
+
+* docs: fix Readme badges ([`c76266c`](https://github.com/Nenuial/geovizir/commit/c76266c17a5377d22b14c05db577d3106aa19f79))
+
+* docs: change the Readme and add badges ([`9118993`](https://github.com/Nenuial/geovizir/commit/911899317d317065390c588b3a48a179beba039b))
+
+### Fix
+
+* fix: Readme changes ([`da0ff43`](https://github.com/Nenuial/geovizir/commit/da0ff43df107dba100e7e4d2463efca0a53340b1))
+
+
 ## v1.3.1 (2024-01-14)
 
 ### Fix
