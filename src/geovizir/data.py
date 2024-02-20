@@ -1,4 +1,4 @@
-import wbdata
+import wbgapi as wb
 import datetime
 import pandas as pd
 
@@ -21,13 +21,10 @@ def get_data(indicator: str, year: int) -> pd.DataFrame:
     pandas.DataFrame
         Dataframe with the data
     """
-    data_date = datetime.datetime(year, 1, 1), datetime.datetime(year, 12, 31)
-    data = wbdata.get_data(indicator, data_date=data_date)
-    
-    # make a dataframe by iterating over the list of dicts
-    df = pd.DataFrame([i for i in data])
-    df["country"] = df["country"].apply(lambda x: x["value"])
-    df["indicator"] = df["indicator"].apply(lambda x: x["value"])
-    df.rename(columns={"date": "year", "countryiso3code": "iso3c"}, inplace=True)
+    data = wb.data.DataFrame(indicator, "all", year, labels=True)
+    data.reset_index(inplace=True)
+    data.rename(columns={indicator: "value", "Country": "country", "economy": "iso3c"}, inplace=True)
+    data["date"] = year
+    data["indicator"] = indicator
 
-    return df
+    return data

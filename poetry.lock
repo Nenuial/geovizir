@@ -34,17 +34,6 @@ files = [
 ]
 
 [[package]]
-name = "appdirs"
-version = "1.4.4"
-description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
-optional = false
-python-versions = "*"
-files = [
-    {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
-    {file = "appdirs-1.4.4.tar.gz", hash = "sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41"},
-]
-
-[[package]]
 name = "appnope"
 version = "0.1.3"
 description = "Disable App Nap on macOS >= 10.9"
@@ -3142,25 +3131,20 @@ socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
-name = "wbdata"
-version = "0.3.0"
-description = "A library to access World Bank data"
+name = "wbgapi"
+version = "1.0.12"
+description = "wbgapi provides a comprehensive interface to the World Bank's data and metadata APIs"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.0"
 files = [
-    {file = "wbdata-0.3.0-py3-none-any.whl", hash = "sha256:cc8ab9deaff12b3699351305303b517cc0587011ce215d4f6df3996820ae4249"},
-    {file = "wbdata-0.3.0.tar.gz", hash = "sha256:050f01c39fefa02def49b3eea5f7a1b6ecc6d4fa97d43909a6bac78b3833e8b1"},
+    {file = "wbgapi-1.0.12-py3-none-any.whl", hash = "sha256:c5a1e1683b03d4264d287627c2562932f30e7f5c65509b812cb2e3de7d32633f"},
+    {file = "wbgapi-1.0.12.tar.gz", hash = "sha256:338c3c768bd120b80596b48fa0449ecabc93513ac989c55671dce579dbb3a5be"},
 ]
 
 [package.dependencies]
-appdirs = ">=1.4,<2.0"
-decorator = ">=4.0"
-requests = ">=2.0"
-tabulate = ">=0.8.5"
-
-[package.extras]
-docs = ["sphinx (>=2.2)"]
-pandas = ["pandas (>=0.17)"]
+PyYAML = "*"
+requests = "*"
+tabulate = "*"
 
 [[package]]
 name = "wcwidth"
@@ -3244,4 +3228,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "af9545c98da2417ad79ee5861d72779bd56b8116817fee55909235f3b4a34b72"
+content-hash = "8efbc14c8a805e9470116eb1f98fc4a57b50e448607c093580cb25da464454a3"
