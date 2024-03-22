@@ -2,6 +2,13 @@
 
 
 
+## v1.4.0 (2024-02-20)
+
+### Feature
+
+* feat: data module now uses wbgapi ([`1d2d7e7`](https://github.com/Nenuial/geovizir/commit/1d2d7e74f03991d15d388635788917d2be34bfc5))
+
+
 ## v1.3.2 (2024-01-15)
 
 ### Documentation
