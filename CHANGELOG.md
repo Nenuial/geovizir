@@ -2,6 +2,17 @@
 
 
 
+## v1.5.0 (2024-03-22)
+
+### Feature
+
+* feat: Add function for adm1 geo level ([`61e0cd5`](https://github.com/Nenuial/geovizir/commit/61e0cd581bd871d4044859e336606e49fff9720c))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`ee13b85`](https://github.com/Nenuial/geovizir/commit/ee13b8521948880a574bbdfa8626d74ecd783f6c))
+
+
 ## v1.4.0 (2024-02-20)
 
 ### Feature
