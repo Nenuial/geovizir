@@ -2,6 +2,13 @@
 
 
 
+## v1.6.0 (2024-04-22)
+
+### Feature
+
+* feat: Add function for getting most recent data from WB API ([`f44c044`](https://github.com/Nenuial/geovizir/commit/f44c0440f3fcee6755216d3d91c61cf8b7281da8))
+
+
 ## v1.5.0 (2024-03-22)
 
 ### Feature
