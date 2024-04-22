@@ -2,6 +2,13 @@
 
 
 
+## v1.7.2 (2024-04-22)
+
+### Fix
+
+* fix: GH Action docs should reflect latest version ([`498f637`](https://github.com/Nenuial/geovizir/commit/498f637c9326b1331ee953de5b98b5d8612559a6))
+
+
 ## v1.7.1 (2024-04-22)
 
 ### Fix
