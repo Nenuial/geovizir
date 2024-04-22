@@ -2,6 +2,17 @@
 
 
 
+## v1.7.1 (2024-04-22)
+
+### Fix
+
+* fix: GH Actions doc waits for cd ([`f7384d5`](https://github.com/Nenuial/geovizir/commit/f7384d59fa8543ba007154ecaed95942695e1052))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`7729156`](https://github.com/Nenuial/geovizir/commit/77291563e3815900fc2cb5b2ab038fac91869080))
+
+
 ## v1.7.0 (2024-04-22)
 
 ### Feature
