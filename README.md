@@ -10,6 +10,10 @@ Support package to teach computer science. This package is a collection of vario
 $ pip install geovizir
 ```
 
+## Documentation
+
+Documentation is available at [https://geovizir.nenuial.org/](https://geovizir.nenuial.org).
+
 ## License
 
 `geovizir` was created by Pascal Burkhard. It is licensed under the terms of the MIT license.

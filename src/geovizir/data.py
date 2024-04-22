@@ -51,6 +51,7 @@ def get_data_most_recent(indicator: str) -> pd.DataFrame:
     data["date"] = data["date"].str.extract(r"YR(\d{4})").astype(int)
     # filter out NaN values from column value
     data = data.dropna(subset=["value"])
+    data.rename(columns={"Country": "country", "economy": "iso3c"}, inplace=True)
     # Group by country and keep the most recent year where value isn't NaN
     data_clean = data.sort_values("date", ascending=False).groupby("Country").first().reset_index()
     return data_clean

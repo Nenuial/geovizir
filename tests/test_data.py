@@ -23,7 +23,7 @@ class TestGetDataMostRecent(unittest.TestCase):
 
     def test_get_data_most_recent_columns(self):
         df = get_data_most_recent(self.indicator)
-        expected_columns = ["Country", "economy", "date", "value"]
+        expected_columns = ["country", "iso3c", "date", "value"]
         self.assertTrue(set(expected_columns).issubset(df.columns), "Expected DataFrame to have columns: " + ", ".join(expected_columns))
 
     def test_get_data_most_recent_not_empty(self):
