@@ -2,6 +2,13 @@
 
 
 
+## v1.7.0 (2024-04-22)
+
+### Feature
+
+* feat: Add documentation deployement ([`c56c5cb`](https://github.com/Nenuial/geovizir/commit/c56c5cb55beaade87b9f0458090d354553b7abbc))
+
+
 ## v1.6.0 (2024-04-22)
 
 ### Feature
