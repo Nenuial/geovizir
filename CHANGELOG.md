@@ -2,6 +2,15 @@
 
 
 
+## v1.7.3 (2024-04-22)
+
+### Fix
+
+* fix: Error in column names for get_data_most_recent ([`80a1ec9`](https://github.com/Nenuial/geovizir/commit/80a1ec93a8a02fd904826f01feb2d944ce801392))
+
+* fix: Change column names in get_data_most_recent() ([`2972959`](https://github.com/Nenuial/geovizir/commit/29729595b6c261c5aef19f863fdc0fb4d07d923f))
+
+
 ## v1.7.2 (2024-04-22)
 
 ### Fix
