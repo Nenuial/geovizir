@@ -2,6 +2,13 @@
 
 
 
+## v1.8.0 (2024-05-14)
+
+### Feature
+
+* feat: Add a function to relabel categories in a cut column ([`982572e`](https://github.com/Nenuial/geovizir/commit/982572efd585efc9a850f0c53c052e183be6cc61))
+
+
 ## v1.7.3 (2024-04-22)
 
 ### Fix
