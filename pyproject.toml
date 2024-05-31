@@ -25,6 +25,10 @@ sphinx-autoapi = "^3.0.0"
 sphinx-rtd-theme = "^2.0.0"
 pandas = "^2.1.4"
 
+
+[tool.poetry.group.doc.dependencies]
+pydata-sphinx-theme = "^0.15.3"
+
 [tool.semantic_release]
 branch = "main"                             # branch to make releases of
 changelog_file = "CHANGELOG.md"             # changelog file
