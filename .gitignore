@@ -138,5 +138,9 @@ dmypy.json
 **.Rproj
 **.Rhistory
 
+# Posit project files
+**.code-workspace*
+settings.json
+
 # MacOS
 .DS_Store
