@@ -2,6 +2,13 @@
 
 
 
+## v1.9.0 (2024-05-31)
+
+### Feature
+
+* feat: Change documentation template ([`05e25ce`](https://github.com/Nenuial/geovizir/commit/05e25ce92eb76eedaa1b5e8cb337a84e87b4b5d4))
+
+
 ## v1.8.0 (2024-05-14)
 
 ### Feature
