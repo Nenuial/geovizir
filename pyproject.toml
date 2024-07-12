@@ -13,6 +13,8 @@ geopandas = "^0.14.1"
 pandas = "^2.1.4"
 datetime = "^5.4"
 wbgapi = "^1.0.12"
+polars = "^1.1.0"
+geopolars = "^0.1.0a4"
 
 [tool.poetry.dev-dependencies]
 
