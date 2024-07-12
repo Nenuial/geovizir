@@ -138,7 +138,7 @@ dmypy.json
 **.Rproj
 **.Rhistory
 
-# Posit project files
+# Positron project files
 **.code-workspace*
 settings.json
 
