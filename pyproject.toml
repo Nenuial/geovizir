@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "geovizir"
-version = "1.8.0"
+version = "1.9.0"
 description = "Support package for geo visuals."
 authors = ["Pascal Burkhard"]
 license = "MIT"
