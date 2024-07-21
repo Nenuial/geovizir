@@ -2,6 +2,7 @@
 
 [![pypi](https://img.shields.io/pypi/v/geovizir)](https://pypi.org/project/geovizir/) [![GitHub actions status](https://github.com/Nenuial/geovizir/workflows/ci-cd/badge.svg)](https://github.com/Nenuial/geovizir/actions?query=workflow%3Aci-cd) [![codecov](https://codecov.io/gh/Nenuial/geovizir/graph/badge.svg?token=QT0BMO1GE7)](https://codecov.io/gh/Nenuial/geovizir)
 
+
 Support package to teach computer science. This package is a collection of various functions.
 
 ## Installation
