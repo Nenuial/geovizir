@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.0.1 (2024-07-21)
+
+### Fix
+
+* fix: Prepare for DOI ([`34291da`](https://github.com/Nenuial/geovizir/commit/34291dab356b10c86901dd154e17e59152f7807f))
+
 ## v2.0.0 (2024-07-12)
 
 ### Breaking
