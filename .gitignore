@@ -132,12 +132,6 @@ dmypy.json
 # PyCharm
 .idea/
 
-# RStudio project files
-**.Rproj.user/
-**.Rproj.user*
-**.Rproj
-**.Rhistory
-
 # Posit project files
 **.code-workspace*
 settings.json
