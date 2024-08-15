@@ -1,6 +1,16 @@
 # CHANGELOG
 
+## v2.1.0 (2024-07-21)
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`ce725e9`](https://github.com/Nenuial/geovizir/commit/ce725e92ff17c42a5e23a62d7f477def5d4eee5a))
+
 ## v2.0.1 (2024-07-21)
+
+### Feature
+
+* feat: Add DOI ([`4acc8ce`](https://github.com/Nenuial/geovizir/commit/4acc8cef4c2b11b32547aaeac5f5f49b1cdbf938))
 
 ### Fix
 
