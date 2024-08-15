@@ -1,8 +1,22 @@
 # CHANGELOG
 
-## v2.1.0 (2024-07-21)
+## v2.2.0 (2024-08-15)
 
 ### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`8143756`](https://github.com/Nenuial/geovizir/commit/81437566478d96dc4565a53e17219ea737ef9596))
+
+## v2.1.0 (2024-07-21)
+
+### Feature
+
+* feat: revert to geopandas... ([`c0fb059`](https://github.com/Nenuial/geovizir/commit/c0fb0593061e2c5cd0041f1c7c176cb3e09cda44))
+
+### Unknown
+
+* Revert &#34;feat: switch to polars&#34;
+
+This reverts commit 335c667b9c1c92d1500301ce72d0999f81c91257. ([`fd2e1f4`](https://github.com/Nenuial/geovizir/commit/fd2e1f4263bd9a8e2e29b6ea56b9bf15acb40662))
 
 * Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`ce725e9`](https://github.com/Nenuial/geovizir/commit/ce725e92ff17c42a5e23a62d7f477def5d4eee5a))
 
