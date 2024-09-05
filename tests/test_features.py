@@ -1,6 +1,6 @@
 import unittest
 from geovizir.features import ne_countries, ne_states
-import geopolars as gpl
+import geopandas as gpd
 
 class TestFeatures(unittest.TestCase):
     def setUp(self):
@@ -10,7 +10,7 @@ class TestFeatures(unittest.TestCase):
     def test_ne_countries_valid_scale(self):
         # Test with valid scale
         result = ne_countries(10)
-        self.assertIsInstance(result, gpl.GeoDataFrame, "Expected result to be a GeoDataFrame")
+        self.assertIsInstance(result, gpd.GeoDataFrame, "Expected result to be a GeoDataFrame")
 
     def test_ne_countries_invalid_scale(self):
         # Test with invalid scale
@@ -27,7 +27,7 @@ class TestFeatures(unittest.TestCase):
     def test_ne_states_valid_scale(self):
         # Test with valid scale
         result = ne_states('CHE', 10)
-        self.assertIsInstance(result, gpl.GeoDataFrame, "Expected result to be a GeoDataFrame")
+        self.assertIsInstance(result, gpd.GeoDataFrame, "Expected result to be a GeoDataFrame")
 
     def test_ne_states_invalid_scale(self):
         # Test with invalid scale

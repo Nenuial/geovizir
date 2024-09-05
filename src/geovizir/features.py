@@ -1,10 +1,9 @@
-from geopolars import GeoDataFrame, from_geopandas
 from cartopy.io import shapereader
-from geopandas import read_file
+from geopandas import read_file, GeoDataFrame
 
 def ne_countries(scale: int = 10) -> GeoDataFrame:
     """Return a GeoDataFrame of the world countries.
-
+    
     Download the world countries shapefile from Natural Earth and
     return a GeoDataFrame of the countries.
 
@@ -28,14 +27,13 @@ def ne_countries(scale: int = 10) -> GeoDataFrame:
     category = 'cultural'
     name = 'admin_0_countries'
     shpfilename = shapereader.natural_earth(resolution, category, name)
-    geo_df = read_file(shpfilename)
 
     # Read the shapefile using geopandas
-    return from_geopandas(geo_df)
+    return read_file(shpfilename)
 
 def ne_states(state: str, scale: int = 10) -> GeoDataFrame:
     """Return a GeoDataFrame of the stats of a country.
-
+    
     Download the counties shapefile from Natural Earth and
     return a GeoDataFrame of the countries.
 
@@ -66,4 +64,4 @@ def ne_states(state: str, scale: int = 10) -> GeoDataFrame:
     states = shpfilename[shpfilename['adm0_a3'] == state]
 
     # Read the shapefile using geopandas
-    return from_geopandas(states)
+    return states

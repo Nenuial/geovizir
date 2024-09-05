@@ -1,13 +1,12 @@
 import wbgapi as wb
 import datetime
 import pandas as pd
-import polars as pl
 
 # Fix for Python >= 3.10 until wbdata is updated
 import collections
 collections.Sequence = collections.abc.Sequence
 
-def get_data(indicator: str, year: int) -> pl.DataFrame:
+def get_data(indicator: str, year: int) -> pd.DataFrame:
     """Get data from the World Bank API
 
     Parameters
@@ -28,9 +27,9 @@ def get_data(indicator: str, year: int) -> pl.DataFrame:
     data["date"] = year
     data["indicator"] = indicator
 
-    return pl.from_pandas(data)
+    return data
 
-def get_data_most_recent(indicator: str) -> pl.DataFrame:
+def get_data_most_recent(indicator: str) -> pd.DataFrame:
     """Get the data from the World Bank API with the most
     recent year available
 
@@ -59,4 +58,4 @@ def get_data_most_recent(indicator: str) -> pl.DataFrame:
     # Group by country and keep the most recent year where value isn't NaN
     data_clean = data.sort_values("date", ascending=False).groupby("country").first().reset_index()
 
-    return pl.from_pandas(data_clean)
+    return data_clean
