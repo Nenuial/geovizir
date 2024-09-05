@@ -1,5 +1,16 @@
-from cartopy.io import shapereader
 from geopandas import read_file, GeoDataFrame
+from pathlib import Path
+
+def load_data(folder, filepath):
+    # Construct the full path to the shapefile
+    full_path = Path(__file__).parent / 'resources' / folder / filepath
+    
+    # Ensure the file exists
+    if not full_path.exists():
+        raise FileNotFoundError(f"File not found: {full_path}")
+
+    # Read the shapefile using geopandas
+    return read_file(str(full_path))
 
 def ne_countries(scale: int = 10) -> GeoDataFrame:
     """Return a GeoDataFrame of the world countries.
@@ -22,14 +33,11 @@ def ne_countries(scale: int = 10) -> GeoDataFrame:
     if scale not in [10, 50, 110]:
         raise ValueError('Scale must be one of 10, 50, 110')
 
-    # Setup rnaturalearth parameter
-    resolution = str(scale) + 'm'
-    category = 'cultural'
-    name = 'admin_0_countries'
-    shpfilename = shapereader.natural_earth(resolution, category, name)
+    folder = "ne_" + str(scale) + "m_admin_0_countries"
+    filepath = "ne_" + str(scale) + "m_admin_0_countries.shp"
 
     # Read the shapefile using geopandas
-    return read_file(shpfilename)
+    return load_data(folder, filepath)
 
 def ne_states(state: str, scale: int = 10) -> GeoDataFrame:
     """Return a GeoDataFrame of the stats of a country.
@@ -55,11 +63,9 @@ def ne_states(state: str, scale: int = 10) -> GeoDataFrame:
     if scale not in [10, 50, 110]:
         raise ValueError('Scale must be one of 10, 50, 110')
 
-    # Setup rnaturalearth parameter
-    resolution = str(scale) + 'm'
-    category = 'cultural'
-    name = 'admin_1_states_provinces'
-    shpfilename = read_file(shapereader.natural_earth(resolution, category, name))
+    folder = "ne_" + str(scale) + "m_admin_1_states_provinces"
+    filepath = "ne_" + str(scale) + "m_admin_1_states_provinces.shp"
+    shpfilename = load_data(folder, filepath)
 
     states = shpfilename[shpfilename['adm0_a3'] == state]
 

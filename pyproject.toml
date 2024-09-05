@@ -5,16 +5,16 @@ description = "Support package for geo visuals."
 authors = ["Pascal Burkhard"]
 license = "MIT"
 readme = "README.md"
+include = [
+    "src/geovizir/resources/**"
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-cartopy = "^0.23.0"
 geopandas = "^0.14.1"
 pandas = "^2.1.4"
 datetime = "^5.4"
 wbgapi = "^1.0.12"
-polars = "^1.1.0"
-geopolars = "^0.1.0a4"
 
 [tool.poetry.dev-dependencies]
 
@@ -43,6 +43,12 @@ patch_without_tag = true                    # patch release by default
 version_toml = [
     "pyproject.toml:tool.poetry.version",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mypkg = ["*.cpg", "*.dbf", "*.prj", "*.shp", "*.shx"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
