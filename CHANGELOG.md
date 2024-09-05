@@ -1,8 +1,16 @@
 # CHANGELOG
 
+## v2.2.2 (2024-09-05)
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`5ef71c3`](https://github.com/Nenuial/geovizir/commit/5ef71c3b2c29c97c48036898a36d1d5923e40902))
+
 ## v2.2.1 (2024-09-05)
 
 ### Fix
+
+* fix: update minimal version for cartopy ([`416cdde`](https://github.com/Nenuial/geovizir/commit/416cddeebf5e52b7314d142a4b057a1d0567e173))
 
 * fix: remove last traces of polar ([`3f7a84a`](https://github.com/Nenuial/geovizir/commit/3f7a84a1bbb9ae75ca061f8bc46e5497d40da045))
 
