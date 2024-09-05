@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.2.1 (2024-09-05)
+
+### Fix
+
+* fix: remove last traces of polar ([`3f7a84a`](https://github.com/Nenuial/geovizir/commit/3f7a84a1bbb9ae75ca061f8bc46e5497d40da045))
+
 ## v2.2.0 (2024-08-15)
 
 ### Unknown
