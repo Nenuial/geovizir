@@ -13,7 +13,6 @@ include = [
 python = "^3.9"
 geopandas = "^0.14.1"
 pandas = "^2.1.4"
-datetime = "^5.4"
 wbgapi = "^1.0.12"
 
 [tool.poetry.dev-dependencies]

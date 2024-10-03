@@ -1,5 +1,4 @@
 import wbgapi as wb
-import datetime
 import pandas as pd
 
 # Fix for Python >= 3.10 until wbdata is updated
