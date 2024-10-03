@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.3.0 (2024-09-05)
+
+### Feature
+
+* feat: include naturalearth data (and remove cartopy dependency) ([`11b4d4f`](https://github.com/Nenuial/geovizir/commit/11b4d4f6fc78578c2be72c60fd56f714d244d103))
+
 ## v2.2.2 (2024-09-05)
 
 ### Unknown
