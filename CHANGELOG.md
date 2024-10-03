@@ -1,8 +1,16 @@
 # CHANGELOG
 
+## v2.4.0 (2024-10-03)
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Nenuial/geovizir ([`72f4877`](https://github.com/Nenuial/geovizir/commit/72f4877e7e69614f043b948097a121d708a2ae7e))
+
 ## v2.3.0 (2024-09-05)
 
 ### Feature
+
+* feat: remove datetime and zope dependency ([`c4325fc`](https://github.com/Nenuial/geovizir/commit/c4325fc9d2cff0494aecf0b262d86e55f4b11c30))
 
 * feat: include naturalearth data (and remove cartopy dependency) ([`11b4d4f`](https://github.com/Nenuial/geovizir/commit/11b4d4f6fc78578c2be72c60fd56f714d244d103))
 
