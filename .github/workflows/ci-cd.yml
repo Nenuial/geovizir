@@ -84,15 +84,14 @@ jobs:
             --extra-index-url https://pypi.org/simple \
             geovizir
 
-      - name: Clean dist
-        run: rm -rf dist/*
-
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-
+        with:
+          attestations: false
+      
       - name: Build documentation
         run: poetry run make html --directory docs/
-
+      
       - name: rsync deployments
         uses: burnett01/rsync-deployments@7.0.1
         with:
