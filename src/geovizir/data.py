@@ -29,8 +29,8 @@ def get_data(indicator: str, year: int) -> pd.DataFrame:
     return data
 
 def get_data_most_recent(indicator: str) -> pd.DataFrame:
-    """Get the data from the World Bank API with the most
-    recent year available
+    """Get the data from the World Bank API 
+    with the most recent year available
 
     Parameters
     ----------
