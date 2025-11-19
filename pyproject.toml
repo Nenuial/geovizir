@@ -14,6 +14,7 @@ python = "^3.10"
 geopandas = "^0.14.1"
 pandas = "^2.1.4"
 wbgapi = "^1.0.12"
+pyproj = "^3.7.0"
 
 [tool.poetry.dev-dependencies]
 
